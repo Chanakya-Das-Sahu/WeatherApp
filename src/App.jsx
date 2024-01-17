@@ -1,4 +1,6 @@
 import React from 'react';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+//   import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 // import axios from 'axios';
 // //https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
  const App = () =>{
@@ -14,16 +16,20 @@ import React from 'react';
    
   
   return (
-    <>
-    <div id="inputField">
+    <> 
+    {/* <div id="inputField">
       <input type="search" placeholder="Search here..." />
       <button >search</button>
     </div>
     <div id="WeatherInfo">
 
-      
-    </div>
-    </>
+    
+  </div>*/}
+  <h1>Hello world</h1>
+  {/* <i className="fa-solid fa-cloud"></i>
+  <i class="fa-solid fa-cloud-rain"></i>
+  <i class="fa-solid fa-cloud"></i> */}
+    </>  
   )
 }
 
