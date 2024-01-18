@@ -1,2 +1,47 @@
-/* @import url(https://fonts.googleapis.com/css?family=Poiret+One); 
-@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css); */
+#container{
+    border:1px solid black;
+    width:300px;
+}
+
+#main{
+    margin-top: 50px;
+    border:1px solid black;
+    width:300px;
+}
+
+#inputField{
+margin-left:10%;
+}
+
+#icon{
+    border:1px solid black;
+    margin-left:20%;
+}
+
+#TempInfo{
+    border:1px solid black;
+    display: flex;
+   height:100px;
+align-items: center;
+width:300px
+}
+
+#temp{
+    border:1px solid black;
+    display: flex;
+    width:180px;
+    height:100px;
+    justify-content:space-around;
+    align-items: center;
+    background-color: rgb(246, 250, 6);
+}
+
+#Ctime{
+    border:1px solid black;
+    width:100px;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+    
