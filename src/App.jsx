@@ -65,7 +65,7 @@ catch(error) {console.log("rani",error)}
           <div id="Ctime">{new Date().toLocaleString()}</div>
       </div>
 </div>  
-<WeatherInfo icons={ <WiHumidity  size="5rem" />} infos="Humidity" digit={info.data.base}/>
+
 {/*<WeatherInfo icons={ <WiBarometer />} infos={Pressure}/>infos={Humidity} digit={info.data.main.humidity}
 <WeatherInfo icons={ <WiStrongWind />} infos={Wind}/>
 <WeatherInfo icons={ <WiSunrise />} infos={Sunrise}/>
